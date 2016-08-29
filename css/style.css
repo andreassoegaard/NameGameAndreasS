@@ -23,9 +23,12 @@ button {
 }
 article {
   width: 210px;
-  height: 320px;
+  height: 280px;
   margin: 10px;
   float: left;
+}
+article img {
+    max-height: 280px;
 }
 .cover {
   position: relative;
