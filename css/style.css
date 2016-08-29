@@ -22,20 +22,21 @@ button {
   margin-top:10px;
 }
 article {
-  width: 210px;
-  height: 280px;
-  margin: 10px;
-  float: left;
+    width: 210px;
+    height: 280px;
+    margin: 10px;
+    float: left;
+    position: relative;
 }
 article img {
     max-height: 280px;
 }
 .cover {
-  position: relative;
-  width:100%;
-  height:50%;
-  top:-140px;
-  background-color:#113311;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: 0px;
+    background-color: #113311;
 }
 /* Changed styling for showing names so that the green box disappears completely */
  .uncover {
